@@ -1,0 +1,155 @@
+body {
+  background-color: #F2DAC9;
+}
+
+.topnav {
+  position: relative;
+  overflow: hidden;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+}
+
+.topnav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: rgba(230, 230, 230, 1.0);
+  color: black;
+  border-radius: 6px;
+  font-size: 20px;
+}
+
+.topnav a.active {
+  background-color: white;
+  color: black;
+  font-family: Brush Script MT;
+}
+
+.topnav-centered a {
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.topnav-right {
+  float: right;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a, .topnav-right {
+    float: none;
+    display: block;
+  }
+  
+  .topnav-centered a {
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: none;
+  }
+}
+
+div.first-box {
+  background-color: #FFFFFF;
+  width: 600px;
+  height: 550px;
+  border: 10 px black;
+  margin: 20px;
+  position: center;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+}
+
+div.second-box {
+  background-color: #FFFFFF;
+  width: 600px;
+  height: 200px;
+  border: 10 px grey;
+  margin: 20px;
+  position: center;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.25);
+}
+
+div.third-box {
+  background-color: #FFFFFF;
+  width: 600px;
+  height: 150px;
+  border: 10 px grey;
+  margin: 20px;
+  position: relative;
+  text-align: relative;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.25);
+  justify-content: space-between;
+}
+
+
+img {
+  border-radius: 50%;
+}
+
+.button {
+  background-color: #008CBA;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.second-button {
+  background-color: pink;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button1 {
+  border-radius: 4px;
+  padding: 15px 32px;
+  font-size: 16px
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a {
+  color: white;
+}
+
+.button2 {
+  border-radius: 4px;
+  padding: 15px 12px;
+  color: pink
+}
+.second-button a:hover{
+  background-color: pink;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-size: 15px;
+}

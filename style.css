@@ -1,0 +1,146 @@
+body {
+  background-color: #F2DAC9;
+}
+
+
+.topnav {
+  position: relative;
+  overflow: hidden;
+  background-color: white;
+  border-radius: 6px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.25) 
+}
+
+.topnav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: rgba(230, 230, 230, 1.0);
+  color: black;
+  border-radius: 6px;
+  font-size: 20px;
+}
+
+.topnav a.active {
+  background-color: white;
+  color: black;
+  font-family: Brush Script MT;
+}
+.link{
+  color: black;
+}
+.topnav-centered a {
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.topnav-right {
+  float: right;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a, .topnav-right {
+    float: none;
+    display: block;
+  }
+  
+  .topnav-centered a {
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: none;
+  }
+}
+
+div.first-box {
+  background-color: #FFFFFF;
+  width: 600px;
+  height: 550px;
+  border: 10 px black;
+  margin: 20px;
+  position: center;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+}
+
+img {
+  box-shadow: 5px 10px 8px #888888;
+  border-radius: 10px;
+}
+
+.button {
+  background-color: #FEC8D8;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.25);
+}
+
+
+
+.button1 {
+  border-radius: 4px;
+  padding: 15px 32px;
+  font-size: 16px
+}
+
+.button1 a:hover {
+  border-radius: 4px;
+  padding: 15px 32px;
+  font-size: 20px;
+
+}
+
+
+
+a:link {
+    text-decoration: none;
+}
+
+a {
+    color: black;
+    font-family: Times Roman;
+}
+
+
+.buttonl {
+  border-radius: 4px;
+  padding: 15px 32px;
+  font-size: 10px
+}
+
+.buttonl {
+  background-color: rgba(230, 230, 230, 1.0);
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.25);
+  
+}
+
+.buttonl a:hover{
+  border-radius: 4px;
+  padding: 15px 32px;
+  font-size: 15px;
+}
+
